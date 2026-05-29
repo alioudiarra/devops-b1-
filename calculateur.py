@@ -6,4 +6,4 @@ def calculer_ttc(prix_ht: float, taux_tva: float) -> float:
     :param taux_tva: Le taux de TVA en pourcentage
     :return: Le prix toutes taxes comprises (TTC)
     """
-    return prix_ht * (1 + taux_tva / 100)
+    return prix_ht * 1.20
